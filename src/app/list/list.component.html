@@ -1,0 +1,6 @@
+Looking for the sunstars...
+<div *ngFor="let sunstar of data.sunstars | async">
+  <h2>{{sunstar.name}}</h2>
+  <img [src]="sunstar.photo" style="max-width:300px;">
+  <p>{{sunstar.description}}</p>
+</div>

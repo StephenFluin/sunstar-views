@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "sunstar-views",
+      "public": "dist/sunstar-views",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

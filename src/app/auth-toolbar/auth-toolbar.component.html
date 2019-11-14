@@ -1,0 +1,4 @@
+<div>
+    <ng-container *ngIf=" auth.state | async as state; else: login">Welcome back {{state.displayName}}. <button (click)="auth.logout()">Logout</button></ng-container>
+    <ng-template #login><button (click)="auth.login()">Login</button></ng-template>
+</div>

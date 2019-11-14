@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "sunstar-views": {
+      "hosting": {
+        "sunstar-views": [
+          "sunstar-views"
+        ]
+      }
+    }
+  }
+}
